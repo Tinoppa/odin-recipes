@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "PT serif", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #289944;
+}
+
+h1 {
+    text-align: center;
+    padding: 1em;
+    font-weight: 700;
+    color: #040f0f;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(126, 123, 123);
+}
+
+h2 {
+    text-align: center;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+h4 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding: .5em;
+    margin: 2em;
+    color: #e8e8e9;;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: auto;
+    text-align: center;
+    padding: 2rem
+}
+
+li {
+    list-style-type: none;
+    padding: .2em;
+    color: #e8e8e9;
+}
